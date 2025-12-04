@@ -1,8 +1,8 @@
-name: "EOS connect develop"
+name: "EOS connect develop njoerd114"
 description: "Tool to optimize energy usage with EOS system data."
-version: "0.2.29.198"
-slug: "eos_connect_develop"
-url: "https://github.com/ohAnd/EOS_connect"
+version: "2025.12.0-dev"
+slug: "eos_connect_feature"
+url: "https://github.com/njoerd114/EOS_connect"
 arch:
   - aarch64
   - amd64
@@ -17,7 +17,7 @@ ingress: true
 ingress_port: 8081
 init: false
 
-image: "ghcr.io/ohand/ha-addon-eos_connect_develop_{arch}"
+image: "ghcr.io/njoerd114/ha-addon-eos_connect_develop_{arch}"
 
 map:
   - type: addon_config
