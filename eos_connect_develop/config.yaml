@@ -140,7 +140,7 @@ schema:
     timeout: int(1,) # timeout for EOS optimize request in seconds
 
   price:
-    source: list(smartenergy_at|tibber|stromligning|fixed_24h|default) # Data source for electricity price
+    source: list(default|evcc|fixed_24h|smartenergy_at|stromligning|tibber) # Data source for electricity price
     token: str? # Token for electricity price. For Stromligning use supplierId/productId[/groupId].
     fixed_price_adder_ct: float(0,1000)? # Describes the fixed cost addition in ct per kWh.
     relative_price_multiplier: float(0.0,1.0)? # Applied to (base energy price + fixed_price_adder_ct). Use a decimal (e.g., 0.05 for 5%).
