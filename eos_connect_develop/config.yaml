@@ -17,7 +17,7 @@ ingress: true
 ingress_port: 8081
 init: false
 
-image: "ghcr.io/njoerd114/ha-addon-eos_connect_develop_{arch}"
+#image: "ghcr.io/njoerd114/ha-addon-eos_connect_develop_{arch}"
 
 map:
   - type: addon_config
